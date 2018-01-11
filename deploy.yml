@@ -10,7 +10,7 @@
   # Create a VM from a template
   - name: create the VM
     vmware_guest:
-      hostname: 'vcorp'
+      hostname: '10.51.27.203'
       username: pedrov@network.ctbc
       password: '{{ vsphere_password }}'
       validate_certs: no
