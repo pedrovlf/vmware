@@ -20,7 +20,6 @@
       name: 'testepedrao'
       state: poweredon
       guest_id: rhel7_64Guest
-      annotation: "{{ notes }}"
       disk:
       - size_gb: 30
         type: thin
